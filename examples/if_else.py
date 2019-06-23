@@ -60,8 +60,23 @@ else:
 '''
 
 ############################### Check if a variable exists ##########################################
+'''
 x=0
 if x:
 	print("Yeah it exists")
 else:
 	print("Nope nothing is there")
+'''
+
+###############################           Negation         ##########################################
+'''
+if x != y:
+	print("x isn't equal to y")
+
+if x in my_list:
+	print("x is there in the list")
+
+if x not in my_list:
+	print("x is not there in the list")
+
+'''
