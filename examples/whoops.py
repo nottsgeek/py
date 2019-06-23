@@ -34,7 +34,7 @@ for i in my_list:
 
 print my_list1
 '''
-###############################   Nested loops ##############################
+###############################   Nested for loops ##############################
 '''
 my_tuple=(10,20,30,40)
 my_list=[1,2,34]
@@ -44,4 +44,20 @@ for i in my_tuple:
 #		for k in j:
 #			print i + k
 		print i + j
+'''
+
+###############################   While loops ##############################
+'''
+while(<condition>):
+	code
+
+i=0
+while i<10:
+	print i
+	i += 1
+	
+i=0
+while i!=10:
+	x = int(raw_input('Enter a number : '))
+	
 '''
