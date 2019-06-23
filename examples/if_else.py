@@ -16,9 +16,9 @@ AwsDict = {'ec2': {
 
 value=2
 if len(AwsDict['SecurityGroup']['VPCID']) <= value:
-  print("There are less than %s regions" % value)
+	print("There are less than %s regions" % value)
 elif len(AwsDict['SecurityGroup']['VPCID']) > 2:
-  print("there are exactly two regions")
+	print("there are exactly two regions")
 else:
 	print("Total number of regions are more than %s" % value)
   
