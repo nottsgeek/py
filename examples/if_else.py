@@ -58,3 +58,10 @@ else:
 
 #(x<=y) & (z>=y) | (x!=y)
 '''
+
+############################### Check if a variable exists ##########################################
+x=0
+if x:
+	print("Yeah it exists")
+else:
+	print("Nope nothing is there")
