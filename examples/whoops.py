@@ -61,3 +61,10 @@ while i!=10:
 	x = int(raw_input('Enter a number : '))
 	
 '''
+###############################   Input validation ##############################
+'''
+my_list = ["option1", "option2"]
+option = ""
+while option not in my_list:
+	option = raw_input("here : ")
+'''
