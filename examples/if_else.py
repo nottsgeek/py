@@ -78,5 +78,13 @@ if x in my_list:
 
 if x not in my_list:
 	print("x is not there in the list")
+'''
+###############################       Ternary Operator     ##########################################
+'''
+if x > y:
+  print x
+else:
+  print y
 
+print(x if x>y else y)
 '''
