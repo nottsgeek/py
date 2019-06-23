@@ -22,8 +22,8 @@ elif len(AwsDict['SecurityGroup']['VPCID']) > 2:
 else:
 	print("Total number of regions are more than %s" % value)
   
-'''
 ###############################          NESTING      ##########################################
+'''
 if <condition 1>:
 	if <sub conidition 1>:
 		do this
@@ -41,3 +41,20 @@ elif <conidition 2>:
 else:
 	do this
  '''
+
+###############################          AND(&) OR(|)      ##########################################
+'''
+#!/usr/bin/python
+
+x=2
+y=3
+z=4
+
+if (x==y) and (x==z):
+	print("Condition matched")
+else:
+	print("No Matches")
+
+
+#(x<=y) & (z>=y) | (x!=y)
+'''
