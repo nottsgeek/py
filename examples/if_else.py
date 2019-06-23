@@ -39,10 +39,5 @@ elif <conidition 2>:
 	else:
 		do this
 else:
-	if <sub conidition 5>:
-		do this
-	elif <sub consition 6>:
-		do this
-	else:
-		do this
+	do this
  '''
