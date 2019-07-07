@@ -6,3 +6,5 @@ def demo_func():
   
 #calling a function
 demo_func()
+
+#Passing a parameter
