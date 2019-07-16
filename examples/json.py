@@ -13,3 +13,9 @@ data["region"] = "eu-west2"
 ec2 = json.dumps(data)
 
 print(ec2)
+
+
+with open('cft.json') as fh:
+  data = json.load(fh)
+  
+print(data)
