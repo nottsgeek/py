@@ -1,10 +1,5 @@
 #!/usr/local/python
 
-#buitlin functions
-#lambda functions
-#user defined functions
-#recursive functions
-
 #defining a function
 def demo_func():
   print(demo)
@@ -12,10 +7,35 @@ def demo_func():
 #calling a function
 demo_func()
 
-#Return value
-#Chaining functions
-#Passing a parameter
+#passing argument to a function
+
+def demo_func(x):
+  print(x)
+  
+demo_func(5)
+
+#passing multiple arguments to a function
+
+def demo_func(x,y):
+  z=x+y
+  print(z)
+ 
+demo_func(4,5)
+
+#Getting return value
+def demo_func(x,y):
+  z=x+y
+  return z
+ 
+print(demo_func(4,5))
+
 #Default parameter
+def demo_func(x,y=5):
+  z=x+y
+  return z
+ 
+print(demo_func(4))
+
 #multiple parameters
 #list as a parameter
 #Recursion
