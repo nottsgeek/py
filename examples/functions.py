@@ -38,6 +38,21 @@ def demo_func(x,y=5):
 print(demo_func(4))
 
 #----------------------------------------
+# *args
+def demo_func(*args):
+  z=x+y
+  return z
+ 
+print(demo_func(4))
+
+#----------------------------------------
+# **kwargs
+def demo_func(*args):
+  z=x+y
+  return z
+ 
+print(demo_func(4))
+
 #multiple parameters
 #list as a parameter
 #Recursion
