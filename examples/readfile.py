@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+#you should have a file named template in your path
 #Read file and store data as a string
 '''
 f=open('template', 'r')
@@ -18,7 +19,7 @@ f.close()
 print datalist
 '''
 
-#Read file line by line
+#Read and process file line by line
 '''
 f=open('template', 'r')
 line=f.readline()
