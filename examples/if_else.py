@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-
+#declaring a dictionary
 AwsDict = {'ec2': {
                  'InstanceType': ['t2.micro','x2.large'],
                  'region': 'us-east1',
@@ -15,6 +15,9 @@ AwsDict = {'ec2': {
            }
 
 value=2
+
+#validating condtions and performing actions with if elif and else
+
 if len(AwsDict['SecurityGroup']['VPCID']) <= value:
 	print("There are less than %s regions" % value)
 elif len(AwsDict['SecurityGroup']['VPCID']) > 2:
