@@ -1,0 +1,21 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  
+  "Resources" : {
+    "EC2Instance" : {
+      "Type" : "AWS::EC2::Instance",
+      "Properties" : {
+        "ImageId" : { "Fn::FindInMap" : [ "RegionMap", { "Ref" : "AWS::Region" }, "AMI" ]},
+        "InstanceType" : { "Fn::If" : [
+          "CreateProdResources",
+          "c1.xlarge",
+          {"Fn::If" : [
+            "CreateDevResources",
+            "m1.large",
+            "m1.small"
+          ]}
+        ]}
+      }
+    }
+  }
+}
